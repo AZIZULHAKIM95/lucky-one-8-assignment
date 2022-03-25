@@ -1,0 +1,74 @@
+[
+    {
+        "id": "001a1",
+        "category": "Men's Sun Glass",
+        "name": "Ray-Ban",
+        "price": 20,
+        "img": "https://img.freepik.com/free-photo/sunglasses_1203-7886.jpg?w=740&t=st=1648237454~exp=1648238054~hmac=a0c7e9aa3e08d3d0aa7cfda00f37f2c8b903c07daa96ad2eaa1617ae0d972947",
+        "quantity": 0
+    },
+    {
+        "id": "002a2",
+        "category": "Men's Sun Glass",
+        "name": "Gucci",
+        "price": 24,
+        "img": "https://img.freepik.com/free-photo/sunglasses-isolated-white_1203-3310.jpg?t=st=1648225238~exp=1648225838~hmac=3aee4620cf1d3b00092af56325038e0288677ac60f2664f3e2fb99508695ce96&w=740",
+        "quantity": 0
+    },
+    {
+        "id": "003a3",
+        "category": "Men's Sun Glass",
+        "name": "Prada",
+        "price": 18,
+        "img": "https://img.freepik.com/free-vector/black-hipster-sunglasses_47243-602.jpg?w=740",
+        "quantity": 0
+    },
+    {
+        "id": "004a4",
+        "category": "Men's Sun Glass",
+        "name": "Versace",
+        "price": 15,
+        "img": "https://img.freepik.com/free-vector/black-sunglasses-with-dark-glass-white-background_47243-594.jpg?w=740",
+        "quantity": 0
+    },
+    {
+        "id": "005a5",
+        "category": "Men's Sun Glass",
+        "name": "Burberry",
+        "price": 21,
+        "img": "https://img.freepik.com/free-photo/beautiful-luxury-black-sunglasses-with-multicolor-mirror-lens-isolated-white-background_39665-117.jpg?w=740",
+        "quantity": 0
+    },
+    {
+        "id": "006a6",
+        "category": "Men's Sun Glass",
+        "name": "DKNY",
+        "price": 28,
+        "img": "https://img.freepik.com/free-vector/eyeglasses-optical-accessory_24908-68887.jpg?w=740",
+        "quantity": 0
+    },
+    {
+        "id": "007a7",
+        "category": "Men's Sun Glass",
+        "name": "Dolce & Gabbana",
+        "price": 24,
+        "img": "https://img.freepik.com/free-psd/aviator-sunglasses-mockup-top-view_1332-8861.jpg?w=740",
+        "quantity": 0
+    },
+    {
+        "id": "008a8",
+        "category": "Men's Sun Glass",
+        "name": "Carrera",
+        "price": 17,
+        "img": "https://img.freepik.com/free-photo/sunglasses_1203-7887.jpg?t=st=1648238005~exp=1648238605~hmac=06c0b0963feba07718dbf1633429ecadfca93476374044f019e4d3499c41fc74&w=740",
+        "quantity": 0
+    },
+    {
+        "id": "009a9",
+        "category": "Men's Sun Glass",
+        "name": "Valentino",
+        "price": 20,
+        "img": "https://img.freepik.com/free-photo/sunglasses-isolated-against-white-background_255667-13036.jpg?w=740",
+        "quantity": 0
+    }
+]

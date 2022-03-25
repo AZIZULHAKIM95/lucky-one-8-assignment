@@ -1,0 +1,13 @@
+.cart-all{
+    position: sticky;
+    top: 0;
+    padding: 30px;
+}
+
+.btn{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lime;
+    background-color: rgb(180, 144, 115);
+    border-radius: 7px;
+}
