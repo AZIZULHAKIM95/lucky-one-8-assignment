@@ -11,6 +11,8 @@
 }
 .cart-container{
     background-color: rgb(79, 160, 146);
+    position: sticky;
+    top: 0;
 }
 
 @media screen and (max-width:600px){
@@ -18,4 +20,12 @@
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
+}
+
+.btn{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lime;
+    background-color: rgb(180, 144, 115);
+    border-radius: 7px;
 }

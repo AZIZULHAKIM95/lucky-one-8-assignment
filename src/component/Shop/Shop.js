@@ -49,8 +49,8 @@ const Shop = () => {
                         <Cart cart={carts}></Cart>
                     ))}
                     <h3>{singph}</h3>
-                    <button onClick={() => randoma(cartName)}>Random</button><br />
-                    <button onClick={removeCart}>All Remove</button>
+                    <button className='btn' onClick={() => randoma(cartName)}>Random</button><br />
+                    <button className='btn' onClick={removeCart}>All Remove</button>
                 </div>
             </div>
         </div>
