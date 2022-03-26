@@ -1,52 +1,62 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
-import { addToDb, getStoreCart } from '../../utilities/fakedb'
 import './Shop.css'
 
 const Shop = () => {
+    const [products, setProducts] = useState([])
+    const [carts, setCarts] = useState([])
+    const cartName = carts.map((cart) => cart.name)
+    const [singph, setSingph] = useState()
 
-    const [Products, setProducts] = useState([])
-    const [cart, setCart] = useState([])
     useEffect(() => {
         fetch('products.json')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
 
-    useEffect(() => {
-        const storedCart = getStoreCart();
-        for (const id in storedCart) {
-            const addedProduct = Products.find(product => product.id === id)
-        }
 
+    const addToCart = (Product) => {
 
-    }, [])
-
-
-    const handelAddToCart = (Product) => {
-        console.log(Product)
-
-        const newCart = [...cart, Product]
-        setCart(newCart)
-        addToDb(Product.id)
+        const newCart = [...carts, Product]
+        setCarts(newCart)
 
     }
 
+    const randoma = (data) => {
+        const randoma = data[Math.floor(Math.random() * data.length)];
+        setSingph(randoma);
+        setCarts([])
+    }
+
+    const removeCart = () => {
+        setCarts([]);
+        setSingph([])
+    }
+
     return (
-        <div className='all-shop-container'>
-            <div className='product-container'>
-                {
-                    Products.map(product => <Product Product={product} key={product.id} handelAddToCart={handelAddToCart}></Product>)
-                }
+        <div>
+            <div className='all-shop-container'>
+                <div className='product-container'>
+                    {
+                        products.map((product) => (<Product product={product} key={product.id} addToCart={addToCart}></Product>)
+                        )}
 
-            </div>
+                </div>
 
-            <div className='cart-container'>
-                <Cart cart={cart}></Cart>
+                <div className='cart-container'>
+                    {carts.map((carts) => (
+                        <Cart cart={carts}></Cart>
+                    ))}
+                    <h3>{singph}</h3>
+                    <button onClick={() => randoma(cartName)}>Random</button><br />
+                    <button onClick={removeCart}>All Remove</button>
+                </div>
             </div>
         </div>
+
     );
 };
+
 
 export default Shop;
