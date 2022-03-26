@@ -1,6 +1,6 @@
 [
     {
-        "id": "001a1",
+        "id": "001",
         "category": "Men's Sun Glass",
         "name": "Ray-Ban",
         "price": 20,
@@ -8,7 +8,7 @@
         "quantity": 0
     },
     {
-        "id": "002a2",
+        "id": "002",
         "category": "Men's Sun Glass",
         "name": "Gucci",
         "price": 24,
@@ -16,7 +16,7 @@
         "quantity": 0
     },
     {
-        "id": "003a3",
+        "id": "003",
         "category": "Men's Sun Glass",
         "name": "Prada",
         "price": 18,
@@ -24,7 +24,7 @@
         "quantity": 0
     },
     {
-        "id": "004a4",
+        "id": "004",
         "category": "Men's Sun Glass",
         "name": "Versace",
         "price": 15,
@@ -32,7 +32,7 @@
         "quantity": 0
     },
     {
-        "id": "005a5",
+        "id": "005",
         "category": "Men's Sun Glass",
         "name": "Burberry",
         "price": 21,
@@ -40,7 +40,7 @@
         "quantity": 0
     },
     {
-        "id": "006a6",
+        "id": "006",
         "category": "Men's Sun Glass",
         "name": "DKNY",
         "price": 28,
@@ -48,7 +48,7 @@
         "quantity": 0
     },
     {
-        "id": "007a7",
+        "id": "007",
         "category": "Men's Sun Glass",
         "name": "Dolce & Gabbana",
         "price": 24,
@@ -56,7 +56,7 @@
         "quantity": 0
     },
     {
-        "id": "008a8",
+        "id": "008",
         "category": "Men's Sun Glass",
         "name": "Carrera",
         "price": 17,
@@ -64,7 +64,7 @@
         "quantity": 0
     },
     {
-        "id": "009a9",
+        "id": "009",
         "category": "Men's Sun Glass",
         "name": "Valentino",
         "price": 20,
