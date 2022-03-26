@@ -6,7 +6,7 @@
 .product-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 38px;
     margin-right: 15px;
 }
 .cart-container{
